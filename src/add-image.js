@@ -1,4 +1,4 @@
-import Cat from './download.jpeg';
+import Cat from './assets/cat.jpeg';
 
 const addImage = () => {
     const img = document.createElement('img');
