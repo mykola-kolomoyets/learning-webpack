@@ -1,8 +1,10 @@
 import Cat from './assets/cat.jpeg';
 
+import alt from './cat-alt-text.txt';
+
 const addImage = () => {
     const img = document.createElement('img');
-    img.alt = 'Cat';
+    img.alt = alt;
     img.width = 300;
     img.src = Cat;
 

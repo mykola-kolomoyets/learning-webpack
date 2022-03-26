@@ -12,15 +12,19 @@ module.exports = {
         rules: [
             {
                 test: /\.(png|jpeg|jpg)$/,
-                // type: 'asset/inline'
-                // type: 'asset/resource',
                 // parser: {
                 //     dataUrlCondition: {
                 //         maxSize: 3 // === 3 kB
                 //     }
                 // },
+                // type: 'asset/inline'
+                // type: 'asset/resource',
                 type: 'asset'
-            }
+            },
+            {
+                test: /\.txt/,
+                type: 'asset/source'
+            },
         ]
     }
 };
