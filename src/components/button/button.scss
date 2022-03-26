@@ -1,0 +1,12 @@
+$fz: 20px;
+$bg: blue;
+$color: tomato;
+
+.button {
+    font-size: $fz;
+    background-color: $bg;
+}
+
+.paragraph {
+    color: $color;
+}
